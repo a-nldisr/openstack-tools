@@ -1,2 +1,2 @@
 # openstack-tools
-Openstack client tools to connect to Openstack.
+Openstack tools can be used in combination with Openstack. These tools are contain the Openstack client only.
