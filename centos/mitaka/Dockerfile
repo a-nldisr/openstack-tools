@@ -17,7 +17,7 @@ FROM centos:7.2.1511
 
 # Installation of software
 
-RUN yum install -y epel curl centos-release-openstack-mitaka && \
+RUN yum install -y epel-release centos-release-openstack-mitaka && \
     yum update -y && \
     yum install -y python-openstackclient && \ 
     yum clean all 
