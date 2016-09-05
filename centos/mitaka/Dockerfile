@@ -11,7 +11,6 @@
 # limitations under the License.
 #
 
-
 FROM centos:7.2.1511
 
 # Environment
@@ -20,6 +19,5 @@ FROM centos:7.2.1511
 
 RUN yum install -y epel curl centos-release-openstack-mitaka && \
     yum update -y && \
+    yum install -y python-openstackclient && \ 
     yum clean all 
-     
-RUN yum install -y python-openstackclient
