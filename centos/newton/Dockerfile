@@ -18,7 +18,7 @@ ENV OPENSTACK_VERSION newton
 
 # Installation of software
 
-RUN yum install -y epel-release centos-release-openstack-$(OPENSTACK_VERSION) && \
+RUN yum install -y epel-release centos-release-openstack-${OPENSTACK_VERSION} && \
     yum update -y && \
     yum install -y python-openstackclient && \ 
     yum clean all 
