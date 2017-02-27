@@ -11,7 +11,7 @@
 # limitations under the License.
 #
 
-FROM centos:7.2.1511
+FROM centos:latest
 
 # Environment
 
